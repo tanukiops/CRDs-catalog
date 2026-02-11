@@ -1,5 +1,5 @@
 {
-  "description": "A ProviderConfig configures a keycloak provider.",
+  "description": "A ClusterProviderConfig configures a keycloak provider.",
   "properties": {
     "apiVersion": {
       "description": "APIVersion defines the versioned schema of this representation of an object.\nServers should convert recognized schemas to the latest internal value, and\nmay reject unrecognized values.\nMore info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources",
@@ -13,7 +13,7 @@
       "type": "object"
     },
     "spec": {
-      "description": "A ProviderConfigSpec defines the desired state of a ProviderConfig.\nA ProviderConfigSpec defines the desired state of a ProviderConfig.",
+      "description": "A ProviderConfigSpec defines the desired state of a ProviderConfig.",
       "properties": {
         "credentials": {
           "description": "Credentials required to authenticate to this provider.",
